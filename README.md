@@ -1,29 +1,46 @@
-# Face Recognition Attendance System
+<div><p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x">Certainly! Here is your README markdown, rewritten in a natural and clear style, without references to AI or detection terminology:</p><hr><h1 class="MuiTypography-root MuiTypography-headingMedium css-qp7i24" id="face-recognition-attendance-system">Face Recognition Attendance System</h1><p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x">&lt;p align="center"&gt;
+  &lt;img src="Images/attendence.png" alt="Attendance System Demo" width="800"&gt;
+<p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x"></p></p><p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x">&lt;p align="center"&gt;
+  &lt;a href="https://github.com/ragibcs/face-recognition-attendance-system-v2"&gt;</p><pre><code>&amp;lt;img src="https://img.shields.io/github/license/ragibcs/face-recognition-attendance-system-v2?style=for-the-badge" alt="License"&amp;gt;</code></pre><p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x">&lt;a href="https://github.com/ragibcs/face-recognition-attendance-system-v2"&gt;</p><pre><code>&amp;lt;img src="https://img.shields.io/github/stars/ragibcs/face-recognition-attendance-system-v2?style=for-the-badge" alt="Stars"&amp;gt;</code></pre><p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x">&lt;a href="https://github.com/ragibcs/face-recognition-attendance-system-v2"&gt;</p><pre><code>&amp;lt;img src="https://img.shields.io/github/forks/ragibcs/face-recognition-attendance-system-v2?style=for-the-badge" alt="Forks"&amp;gt;</code></pre><p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x"></p><hr><h2 class="MuiTypography-root MuiTypography-headingMedium css-qp7i24" id="features">Features</h2><table class="MuiTable-root css-j72mkp"><thead class="MuiTableHead-root css-1cetel5"><tr class="MuiTableRow-root MuiTableRow-head css-kknebi"><th style="text-align: start; padding: 0px 16px;"> Feature                </th><th style="text-align: start; padding: 0px 16px;"> Description                                                          </th></tr></thead><tbody class="MuiTableBody-root css-1xnox0e"><tr class="MuiTableRow-root css-kknebi"><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> <strong>Automatic Face Detection</strong> </td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> Detects faces in real time with Haar Cascades.                  </td></tr><tr class="MuiTableRow-root css-kknebi"><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> <strong>Face Recognition</strong>         </td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> Identifies users accurately using a KNN model.                  </td></tr><tr class="MuiTableRow-root css-kknebi"><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> <strong>Attendance Logging</strong>       </td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> Saves attendance records (name, roll number, timestamp) in CSV. </td></tr><tr class="MuiTableRow-root css-kknebi"><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> <strong>Web Interface</strong>            </td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> Manage users through a simple Flask-based web UI.               </td></tr><tr class="MuiTableRow-root css-kknebi"><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> <strong>Automatic Model Training</strong> </td><td class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-1secajh"> Updates the recognition model whenever users are added.         </td></tr></tbody></table><h2 class="MuiTypography-root MuiTypography-headingMedium css-qp7i24" id="technology-stack">Technology Stack</h2><p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x">&lt;p align="left"&gt;
+  &lt;img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python"&gt;
+  &lt;img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&amp;logo=flask&amp;logoColor=white" alt="Flask"&gt;
+  &lt;img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&amp;logo=opencv&amp;logoColor=white" alt="OpenCV"&gt;
+  &lt;img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&amp;logo=scikit-learn&amp;logoColor=white" alt="scikit-learn"&gt;
+  &lt;img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&amp;logo=pandas&amp;logoColor=white" alt="pandas"&gt;
+  &lt;img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&amp;logo=numpy&amp;logoColor=white" alt="NumPy"&gt;
+<p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x"></p></p><h2 class="MuiTypography-root MuiTypography-headingMedium css-qp7i24" id="-getting-started">🚀 Getting Started</h2><h3 class="MuiTypography-root MuiTypography-headingSmall css-1akoz7" id="installation">Installation</h3><pre><code class="lang-bash"># Clone this repository
+git clone https://github.com/ragibcs/face-recognition-attendance-system-v2.git
 
-<p align="center"> <img src="Images/attendence.png" alt="Attendance System Demo" width="800">
+# Move into the project directory
+cd face-recognition-attendance-system-v2
 
-<p align="center"> <a href="https://github.com/ragibcs/face-recognition-attendance-system-v2"> <img src="https://img.shields.io/github/license/ragibcs/face-recognition-attendance-system-v2?style=for-the-badge" alt="License"> </a> <a href="https://github.com/ragibcs/face-recognition-attendance-system-v2"> <img src="https://img.sh
----
-
-## Features | Feature | Description | |---------|-------------| | 🤖 **Auto Face Detection** | Haar Cascades for real-time face detection | | 👤 **Face Recognition** | KNN-based machine learning model for precise user identification | | 📊 **Attendance Logging** | Automatic CSV logging with name, roll, and timestamp |
-| 🌐 **Web Interface** | User management with a clean Flask-powered UI | | 🔄 **Auto Model Training** | When users are added, the model automatically rebuilds |
-
-## Technology Stack
-
-<p align="left"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"> <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
-
-### Launch the Application ```bash python app.py```
-
-Next, launch the browser at **`http://localhost:5000`**.
----
-
-## 📁 Project Structure ``` face-recognition-attendance-system-v2/ → app.py                              # Rebuild_model.py is the main Flask application. # requirements.txt is the model training script.                    The file haarcascade_frontalface_default.xml contains the following dependencies: Python; LICENSE; MIT License; README.md; this file; the face detector; static; faces; and user face images; face_recognition_model.In pkl, the machine learning model is trained. The HTML templates are as follows: home.html; add_user.html; attendance.html; Attendance/; Daily CSV logs; Images/; Project assets; attendance.png
-
----
-
-## Licensing
-
-The **MIT License** governs this project; for more information, refer to the [LICENSE](LICENSE) file.
----
-
-<p align="center"> Created with ❤️ by <a href="https://github.com/ragibcs">ragibcs</a>
+# Install all required Python packages
+pip install -r requirements.txt
+</code></pre>
+<h3 class="MuiTypography-root MuiTypography-headingSmall css-1akoz7" id="running-the-app">Running the App</h3><pre><code class="lang-bash">python app.py
+</code></pre>
+<p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x">Once started, open your browser and go to: <strong><code>http://localhost:5000</code></strong></p><hr><h2 class="MuiTypography-root MuiTypography-headingMedium css-qp7i24" id="-folder-structure">📁 Folder Structure</h2><pre><code>face-recognition-attendance-system-v2/
+├── app.py                              # Main Flask application file
+├── rebuild_model.py                    # Script for training the recognition model
+├── requirements.txt                    # List of dependencies
+├── LICENSE                             # MIT License information
+├── README.md                           # Project documentation
+├── haarcascade_frontalface_default.xml # Haar Cascade XML for face detection
+│
+├── static/
+│   ├── faces/                          # Directory for stored face images
+│   └── face_recognition_model.pkl      # Serialized model file
+│
+├── templates/                          # Web templates (HTML)
+│   ├── home.html
+│   ├── add_user.html
+│   └── attendance.html
+│
+├── Attendance/                         # Stores daily attendance CSV files
+│
+└── Images/                             # Project assets and images
+    └── attendence.png
+</code></pre>
+<hr><h2 class="MuiTypography-root MuiTypography-headingMedium css-qp7i24" id="-license">📝 License</h2><p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x">This project is distributed under the <strong>MIT License</strong>. See the <a href="LICENSE" target="_blank" rel="noreferrer">LICENSE</a> file for more details.</p><hr><p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x">&lt;p align="center"&gt;
+  Made with ❤️ by &lt;a href="https://github.com/ragibcs"&gt;ragibcs
+<p class="MuiTypography-root MuiTypography-bodyMedium MuiTypography-paragraph css-14g3j2x"></p></p><hr></div>
